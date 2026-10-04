@@ -1,0 +1,28 @@
+// Two types of jumping statements
+// 1. braeak 
+// 2. continue
+
+// 1. break => it bill break the entire loop
+
+for(let i=1;i<=10;i++)
+{
+    if(i==2)
+    {
+        break;
+    }
+ console.log(i);
+}
+
+
+// 2. continue => it will skip current iteration and continues remaining loop
+
+for(let i=1; i<=10;i++)
+{
+    if(i==5)
+    {
+        continue;
+    }
+    console.log(i);
+
+}
+
