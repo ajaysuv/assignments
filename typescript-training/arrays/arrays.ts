@@ -53,3 +53,18 @@ console.log(marks);
 console.log("reverse the array");
 countries.reverse();
 console.log(countries);
+
+//11. merge two arrays
+console.log("merge two arrays");
+countries.concat(marks);
+console.log(countries.concat(marks));
+
+let merged =[...countries,...marks];
+console.log(merged);
+
+
+//12. Iterate values from the array. 
+console.log("11. Iterate values from the array.");
+for(let country of countries){
+    console.log(country);
+}
